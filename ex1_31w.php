@@ -8,7 +8,6 @@
  * 
  */
 ?>
-
 <?php
 function fonction_generale()
 {
