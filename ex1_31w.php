@@ -17,7 +17,7 @@ function fonction_generale()
 			'mon_31w-style',
 			get_stylesheet_uri(),
 			array(),
-			_S_VERSION );
+			filemtime(get_template_directory() . '/style.css'));
 	}
 	add_action('wp_enqueue_scripts', 'mon_31w_enqueue');
 }
